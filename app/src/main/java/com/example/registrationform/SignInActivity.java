@@ -43,7 +43,7 @@ public class SignInActivity extends AppCompatActivity {
                 String inpName = edtName.getText().toString();
                 String inpPass = edtPassword.getText().toString();
 
-                if(inpName.equals("Zam") && inpPass.equals("123")){
+                if(inpName.equals("Tom") && inpPass.equals("123")){
                     Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                     startActivity(intent);
                 }else{
