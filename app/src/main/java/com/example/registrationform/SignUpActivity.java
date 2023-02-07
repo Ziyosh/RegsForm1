@@ -42,7 +42,7 @@ public class SignUpActivity extends AppCompatActivity {
                 String inpPass = txtPassword.getText().toString();
                 String inpRePass = txtReEnterPassword.getText().toString();
 
-                if (inpName.equals("Zam") && inpPass.equals("123") && inpRePass.equals("123")) {
+                if (inpName.equals("Tom") && inpPass.equals("123") && inpRePass.equals("123")) {
                     Intent passToMainActivityPage = new Intent(SignUpActivity.this, MainActivity.class);
                     startActivity(passToMainActivityPage);
                 }else {
